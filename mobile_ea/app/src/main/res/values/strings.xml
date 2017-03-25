@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EventAdda</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_Post">Post Event </string>
+    <string name="btn_regEvent">Save</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_view_event">viewEvent</string>
+    <string name="participate_event">Join Now</string>
+    <string name="action_settings">Settings</string>
+    <string name="note">This QR code is shown at Event.  </string>
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <dimen name="album_cover_height">120dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+</resources>

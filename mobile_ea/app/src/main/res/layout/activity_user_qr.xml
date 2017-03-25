@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/fab_margin"
+    tools:context="com.example.dhana.eventadda.UserQr">
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/textSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textpadding"
+         >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Event Name:" />
+
+        <TextView
+            android:textColor="@color/input"
+            android:textSize="@dimen/event_margin"
+            android:id="@+id/tvEventName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/textSize"
+            android:background="@null"
+            android:text="Name:"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/textSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textpadding"
+         >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Registration ID:" />
+
+        <TextView
+            android:id="@+id/tvRegID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/textSize"
+            android:background="@null"
+            android:text="Reg Id"
+            android:textColor="@color/input"
+            android:textSize="@dimen/event_margin"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewQR"
+        android:layout_width="216dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/qrcode" />
+
+    <TextView
+        android:id="@+id/tvNOTE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/textSize"
+        android:background="@null"
+        android:paddingLeft="@dimen/event_margin"
+        android:paddingTop="20dp"
+        android:text="@string/note"
+        android:textColor="@color/colorRed"
+        android:textSize="@dimen/event_margin"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSaveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+            android:text="@string/btn_regEvent"
+        android:textColor="@color/white" />
+
+</LinearLayout>

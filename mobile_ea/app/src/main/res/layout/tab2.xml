@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textpadding"
+        android:layout_marginBottom="@dimen/textSize"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/etNameR"
+            android:text="Dhanashri Dhoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginLeft="@dimen/event_margin"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textpadding"
+        android:layout_marginBottom="@dimen/textSize"
+        >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/event_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/etEmail"
+        android:text="dhana@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginLeft="@dimen/event_margin"
+        android:background="@null" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/Event"
+        android:layout_width="@dimen/event_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Event List:" />
+<ListView
+    android:layout_marginTop="@dimen/textSize"
+    android:layout_width="match_parent"
+    android:id="@+id/eventList"
+    android:layout_height="wrap_content">
+</ListView>
+</LinearLayout>
